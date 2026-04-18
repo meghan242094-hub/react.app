@@ -1,6 +1,6 @@
 import React from "react";
 
-function Todoitem(todo, index, deleteTodo){
+function Todoitem({todo, index, deleteTodo}){
     return(
         <div>
             <p>{todo}</p>
